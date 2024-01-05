@@ -4,7 +4,7 @@
 /*
 MIT License
 
-Copyright (c) 2020 dadatic
+Copyright (c) dadatic
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -51,7 +51,7 @@ unsigned testindirect(VirtualDerived& d)
 unsigned testindirectvisible()
 {
 // Even if the function is called virtually, a smart compiler can fully optimise the call if the actual class can be determined at compile time.
-// In my system, the call `d.test()` can again be inlined as a single amd64 instruction:
+// In my system, the call `b.test()` can again be inlined as a single amd64 instruction:
 //    movl    $69, %eax
 
     VirtualDerived d;
