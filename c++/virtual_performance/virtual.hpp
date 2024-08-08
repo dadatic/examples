@@ -37,7 +37,7 @@ class VirtualBase
 public:
     virtual unsigned test() const noexcept
     {
-        // Some random staff that cannot be evaluated at compile time
+        // Some random stuff that cannot be evaluated at compile time
         unsigned thing = std::rand();
         for (int i = 0; i < 10; ++i)
         {
