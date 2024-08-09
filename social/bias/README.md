@@ -4,8 +4,8 @@
     1. [Encuesta en X](#encuesta-en-x)
     2. [Fuente del estudio](#fuente-del-estudio)
     3. [Analogías](#analogías)
-    4. [Origen de los sesgos](origen-de-los-sesgos)
-    5. [Medidas contra los sesgos](medidas-contra-los-sesgos)
+    4. [Origen de los sesgos](#origen-de-los-sesgos)
+    5. [Medidas contra los sesgos](#medidas-contra-los-sesgos)
 2. Comentarios sobre el estudio
     1. [Objetivo de estos comentarios](#objetivo-de-estos-comentarios)
     2. [Resultados del estudio](#resultados-del-estudio)
