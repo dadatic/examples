@@ -118,17 +118,17 @@ En adelante, me voy a centrar en el sesgo que aparece en la redacción cuya nota
     * Población: 871
     * Media: 8,7
     * Moda: 10
-    * Desviación típica: 1,29
+    * Desviación típica: 1,26
 * Chicas
     * Población: 412
     * Media: 8,83
     * Moda: 10
-    * Desviación típica: 1,32
+    * Desviación típica: 1,25
 * Chicos
     * Población: 459
     * Media: 8,58
     * Moda: 10
-    * Desviación típica: 1,32
+    * Desviación típica: 1,26
 
 Vemos que las chicas tienen en promedio una calificación 0,13 veces mayor que la media global. Los chicos tienen una calificación 0,12 veces menor que la media global.
 
