@@ -171,11 +171,11 @@ Unas cuantas cosas llaman la atención en la gráfica:
 
 ### Cuantía de la compensación
 
-La propuesta de la encuesta era puntuar más a los chicos en todos los exámenes en los que tengan una puntuación a partir de 7. Paso de momento por alto la cuestión de si los resultados del estudio son extrapolables a cualquier tipo de examen. En vez de eso, voy a hacer una prueba de cómo afectaría una compensación a los propios datos obtenidos en el estudio.
+La propuesta de la encuesta era puntuar más a los chicos en todos los exámenes en los que tengan una puntuación por encima de 6. Paso de momento por alto la cuestión de si los resultados del estudio son extrapolables a cualquier tipo de examen. En vez de eso, voy a hacer una prueba de cómo afectaría una compensación a los propios datos obtenidos en el estudio.
 
-Por ahora, no voy a molestarme en hacer una compensación variable según la nota del alumno. Voy a dar una compensación a todos los chicos independientemente de su puntuación para conseguir que la nota media de los chicos se iguale con la de las chicas. He comprobado que consigo este resultado con una compensación de 3 décimas.
+He probado dos tipos de compensación: una compensación uniforme de 3 décimas para todos los chicos independientemente de su puntuación, lo que simplemente busca igualar la nota media de las chicas con la de los chicos, y una compensación progresiva a partir de 6, que es la que propone la encuesta para corregir un sesgo que se supone variable según la puntuación.
 
-### Efecto de la compensación
+### Efecto de la compensación uniforme
 
 Aquí podemos ver la grafica de frecuencias después de aplicar la compensación de regalar 3 décimas a todos los chicos (con la excepción de los que tienen 9,8 o más, a quienes simplemente les ponemos 10).
 
@@ -191,11 +191,28 @@ Antes de la compensación, un 12,3% de la población tenía como mínimo 3 punto
 
 Puede parecer que poner el acento en la dispersión de los datos es absurdo cuando se trata simplemente de un diseño experimental para poner más de relieve los sesgos. Pero, si queremos extrapolar estos resultados a la realidad, parece razonable pensar que, en una situación en la que el sesgo sea similar al encontrado en el estudio, también la dispersión de calificaciones para un mismo desempeño será similar y, por tanto, muy superior al efecto del sesgo.
 
+### Efecto de la compensación progresiva
+
+Aquí podemos ver la grafica de frecuencias después de aplicar la compensación progresiva, añadiendo a cada nota de los chicos el 10% de lo que exceda de 6 (pero si el resultado supera 10 lo dejamos en 10).
+
+<img src="graph4.png" width="100%">
+
+No hemos conseguido igualar del todo la media, debido al efecto de no admitir notas superiores a 10 (la media de los chicos queda en 8,78 frente a 8,83 de la chicas), pero la diferencia entre chicos y chicas que han obtenido 10 se hace algo más pequeña que con la compensación uniforme. 
+
+Como era de esperar, la dispersión de los datos no se reduce visiblemente, incluso aumenta ligeramente la desviación típica en el caso de los chicos, ya que hemos aumentado la distancia entre los chicos con buena nota y los chicos con mala nota. La compensación ha mejorado ligeramente el resultado de una mayoría de los chicos pero ha seguido dejando a la mayoría de chicos y chicas por debajo de la nota máxima, a algunos muy por debajo. Recordemos que todos han presentado exactamente el mismo trabajo.
+
+* Tienen 10 redondo antes de compensar: 21,7% del total, 26,7% de las chicas, 17,21% de los chicos.
+* Tienen 10 redondo después de compensar: 24% del total, 26,7% de las chicas, 21,57% de los chicos.
+* Tienen 9 o menos antes de compensar: 57,29% del total, 50,97% de las chicas, 62,96% de los chicos.
+* Tienen 9 o menos después de compensar: 48,56% del total, 50,97% de las chicas, 46,41% de los chicos.
+* Tienen 7 o menos antes de compensar: 12,28% del total, 10,68%% de las chicas, 13,73% de los chicos.
+* Tienen 7 o menos después de compensar: 9,76% del total, 10,68% de las chicas, 8,93% de los chicos.
+
 ### Recepción de la compensación
 
 Hasta ahora estábamos hablando de cómo disminuir las diferencias entre los indicadores estadísticos de ambos grupos, chicos y chicas. Ahora vamos a suponer que el algoritmo de compensación se ha aprobado. Podemos intentar imaginar qué impresión va a causar en las personas involucradas.
 
-* Chicos: para los que sufran un sesgo descarado, la medida se verá insuficiente; entre los que sufran un sesgo sutil que quizá ni ellos mismos hayan detectado, algunos podrán verlo como un chollo, otros como una menudencia, otros como una humillación, etc., según su temperamento. Si, a igual desempeño, existe una dispersión similar a la del estudio, los chicos que pasen de 8 a 8,3 seguirán preguntándose por qué no han tenido 10, que es la nota que otros han tenido haciendo lo mismo.
+* Chicos: para los que sufran un sesgo descarado, la medida se verá insuficiente; entre los que sufran un sesgo sutil que quizá ni ellos mismos hayan detectado, algunos podrán verlo como un chollo, otros como una menudencia, otros como una humillación, etc., según su temperamento. Si, a igual desempeño, existe una dispersión similar a la del estudio, los chicos que pasen de 8 a 8,2 seguirán preguntándose por qué no han tenido 10, que es la nota que otros han tenido haciendo lo mismo.
 * Chicas: si el sesgo es sutil, que es el tipo de sesgos que la medida pretende compensar, las chicas verán que a los chicos se les sube la nota por un supuesto sesgo que muchas creerán inexistente.  Si, a igual desempeño, existe una dispersión similar a la del estudio, una chica que haya tenido 8 podrá preguntarse por qué a un chico que ha tenido 9 haciendo exactamente lo mismo le suben la nota 3 décimas y a ella no.
 * Profesores: al no haberse identificado con claridad la causa del sesgo por razón de sexo, no sabemos si el establecimiento de la medida compensatoria puede tener efectos no esperados en las calificaciones previas a la compensación. Algunos posibles efectos:
     * Un profesor que considere la compensación injusta puede tener tendencia a contracompensar al poner la nota.

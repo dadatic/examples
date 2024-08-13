@@ -22,13 +22,18 @@ Carlos J. Gil Hernandez; Leire Salazar; Jonatan Castaño Muñoz; Irene Pañeda-F
         * Column `grade_essay_good_male` is new for this project. Contents are generated with a formula that copies contents from column `grade_essay_good` only if the corresponding students are male.
         * Column `grade_essay_good_male_comp` is new for this project. Contents are generated with a formula that adds 0.3 to contents from column `grade_essay_good_male`.
         * Column `grade_essay_good_male_comp_lim` is new for this project. Contents are generated with a formula that sets to 10 every value from `grade_essay_good_male_comp` that is greater than 10.
+        * Column `grade_essay_good_male_comp2` is new for this project. Contents are generated with a formula that adds 10% of the excess above 6 from column `grade_essay_good_male`.
+        * Column `grade_essay_good_male_comp2_lim` is new for this project. Contents are generated with a formula that sets to 10 every value from `grade_essay_good_male_comp2` that is greater than 10.
     * The sheet named "Frequencies" contains calculation of frequencies for each grade. It calculates frequencies from the values in sheet "Play".
         * Column `Grade` contains every possible grade with one-tenth precision.
         * Column `Female` contains how many female students have obtained each grade.
         * Column `Male` contains how many male students have obtained each grade.
         * Column `Total` contains how many students have obtained each grade regardless of gender.
-        * Column `Male (norm.)` is like column `Male`, but with a correction factor to correct the effect of a bigger male population.
+        * Column `Male norm.` is like column `Male`, but with a correction factor to correct the effect of a bigger male population.
         * Column `Male compensated` contains how many male students would have obtained each grade if 0.3 had been added to their grades without exceeding 10.
         * Column `Total after comp.` contains how many students would have obtained each grade regardless of gender if 0.3 had been added to the grades of male students without exceeding 10.
-        * Column `Male compensated (norm.)` is like column `Male compensated`, but with a correction factor to correct the effect of a bigger male population.
+        * Column `Male compensated norm. C` is like column `Male compensated`, but with a correction factor to correct the effect of a bigger male population.
+        * Column `Male compensated progressive` contains how many male students would have obtained each grade if 10% of the excess above 6 had been added to their grades without exceeding 10.
+        * Column `Total after comp. prog.` contains how many students would have obtained each grade regardless of gender if 10% of the excess above 6 had been added to the grades of male students without exceeding 10.
+        * Column `Male compensated norm. CP` is like column `Male compensated progressive`, but with a correction factor to correct the effect of a bigger male population.
 
